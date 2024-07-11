@@ -1,0 +1,22 @@
+//Project 2C Pseudocode
+
+//Income Tax Calculator Pseudocode
+
+//Programmer: Oberg, Parker
+
+//Course: CSC1019-FBN
+
+constants
+    taxRate = 0.15 (average USA tax rate)
+    standardDeduction = 14600 (standard deduction for single or married filing seperately)
+    deductionPerDependent = 2000
+
+prompt user for grossIncome
+prompt user for numberOfDependents
+
+netIncome = grossIncome - standardDeduction - (numberOfDependents * deductionPerDependent)
+incomeTax = netIncome * taxRate
+
+output roundedIncomeTax (rounded to the nearest cent)
+
+end

@@ -1,0 +1,19 @@
+//Project 2A Pseudocode
+
+//Weekly Pay Calculator Pseudocode
+
+//Programmer: Oberg, Parker
+
+//Course: CSC1019-FBN
+
+Prompt user for hourlyWage
+Prompt user for regularHoursWorked
+Prompt user for overtimeHoursWorked
+
+overtimePay = hourlyWage * 1.5 * overtimeHoursWorked
+
+weeklyPay = hourlyWage * regularHoursWorked + overtimePay
+
+output weeklyPay
+
+End

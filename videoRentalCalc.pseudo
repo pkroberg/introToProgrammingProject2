@@ -1,0 +1,24 @@
+//Project 2B Pseudocode
+
+//Video Rental Calculator Pseudocode
+
+//Programmer: Oberg, Parker
+
+//Course: CSC1019-FBN
+
+constants
+    newVideoPrice = $3.00
+    oldVideoPrice = $2.00
+
+    
+variables
+    newVideoCount, oldVideoCount, totalCost
+
+Prompt user for number of new videos = newVideoCount
+Prompt user for number of old videos = oldVideoCount
+
+totalCost = (newVideoCount * newVideoPrice) + (oldVideoCount * oldVideoPrice)
+
+output totalCost
+
+end
